@@ -117,8 +117,8 @@ print(printer)s
         
 printer.disconnect() 
 
-Class Composition --> Classes that have other classes 
-Inheritance will not be used that much, composition will be used more
+# Class Composition --> Classes that have other classes 
+# Inheritance will not be used that much, composition will be used more
 
 class BookShelf:
 
@@ -145,8 +145,8 @@ book2 = Book("The Hobbit")
 shelf = BookShelf(book1, book2)
 print(shelf)
 
-Type Hinting in python > 3.5
-It is important cause you 're get told what to pass
+# Type Hinting in python > 3.5
+# It is important cause you 're get told what to pass
 
 from typing import List
 
