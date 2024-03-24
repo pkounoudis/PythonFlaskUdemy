@@ -71,7 +71,7 @@ print(book)
 book1 = Book.hardcover("Harry Potter", 1500)
 print(book1)
 
-# Class Inheritance
+# Class Inheritance examles
 class Device:
 
     def __init__(self, name, connected_by):
