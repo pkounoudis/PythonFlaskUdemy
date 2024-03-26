@@ -1,4 +1,4 @@
-# OOP Object Oriented Programming *SOS*
+# OOP Object Oriented Programming
 class Person:
     #constructor
     def __init__(self, name, age):
