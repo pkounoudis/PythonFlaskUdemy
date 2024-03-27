@@ -24,7 +24,7 @@ print(Bob.name)
 print(Bob)
 
 
-# Static and Class Methods!
+# Static and Class Methods
 class ClassTest:
 
     def instance_method(self):
