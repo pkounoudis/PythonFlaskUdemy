@@ -34,7 +34,7 @@ def Jinja_function():
     #     last_name = last_name
     # )
 
-    # DO THAT!
+    # DO THIS!
     kwargs = {
         "color": color, 
         "animal_one": animal_one,
