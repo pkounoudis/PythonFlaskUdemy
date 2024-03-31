@@ -1,6 +1,7 @@
 import re
 import random
 
+# Create Class
 class SupportBot:
   negative_responses = ("nothing", "don't", "stop", "sorry")
 
