@@ -9,7 +9,7 @@ entries = []
 def home():
     if request.method == "POST":
         entry_content = request.form.get("content")
-        formatted_date = datetime.datetime.today().strftime("%Y-%m-%d")
+        formatted_date = datetime.datetime.today().strftime("%Y-%m-%d") # change the date
         entries.append((entry_content, formatted_date))
 
     return render_template("home.html", entries = entries)
