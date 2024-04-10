@@ -10,7 +10,7 @@ class GalileanMoons:
         self.third = third
         self.fourth = fourth
 
-@app.route("/") # The "/" is an endpoint!
+@app.route("/") # The "/" is an endpoint
 def data_structures():
     
     movies = [
