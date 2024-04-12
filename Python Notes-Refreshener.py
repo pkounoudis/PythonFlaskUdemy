@@ -268,7 +268,7 @@ def make_secure(func):
 get_admin_password = make_secure(get_admin_password)
 print(get_admin_password())
 
-# The at syntax for Decorators
+# The @ syntax for Decorators
 import functools
 
 user = {"username": "jose", "access_level": "admin"}
