@@ -22,5 +22,5 @@ def home():
         for entry in entries
     ]
 
-    return render_template("home.html", entries = entries)
+    return render_template("home.html", entries = entries_with_date)
 
