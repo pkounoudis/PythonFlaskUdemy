@@ -18,6 +18,8 @@ def home():
          entry[1], 
          datetime.datetime.strptime(entry[1), "%Y-%m-%d").strftime("%b %d")
         )
+
+        for entry in entries
     ]
 
     return render_template("home.html", entries = entries)
