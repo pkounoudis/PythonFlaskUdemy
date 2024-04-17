@@ -12,6 +12,7 @@ def home():
         formatted_date = datetime.datetime.today().strftime("%Y-%m-%d") # formats the date
         entries.append((entry_content, formatted_date))
 
+    #Datetime implementation
     entries_with_date = [
         (
          entry[0], 
