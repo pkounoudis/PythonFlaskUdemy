@@ -17,7 +17,7 @@ def home():
         (
          entry[0], 
          entry[1], 
-         datetime.datetime.strptime(entry[1), "%Y-%m-%d").strftime("%b %d")
+         datetime.datetime.strptime(entry[1], "%Y-%m-%d").strftime("%b %d")
         )
 
         for entry in entries
