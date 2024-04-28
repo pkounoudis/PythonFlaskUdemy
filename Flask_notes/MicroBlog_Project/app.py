@@ -14,7 +14,7 @@ def home():
     if request.method == "POST":
         entry_content = request.form.get("content")
         formatted_date = datetime.datetime.today().strftime("%Y-%m-%d") # formats the date
-        entries.append((entry_content, formatted_date))
+        # entries.append((entry_content, formatted_date)) We do not need that list anymore, we have MongoDB!
 
         app.db.entries.insert_one({"content": entry_content, "date": formatted_date})
 
