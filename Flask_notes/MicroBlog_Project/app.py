@@ -26,7 +26,7 @@ def home():
          datetime.datetime.strptime(entry[1], "%Y-%m-%d").strftime("%b %d")
         )
 
-        for entry in entries
+        for entry in app.db.entries.find({})
     ]
 
     return render_template("home.html", entries = entries_with_date)
