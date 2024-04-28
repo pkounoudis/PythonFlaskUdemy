@@ -6,7 +6,7 @@ app = Flask(__name__)
 client = MongoClient("mongodb+srv://Panos_Kounoudis:iYJmnq5QeTipkM7r@cluster0.z0ghwkx.mongodb.net/")
 app.db = client.microblog
 
-entries = []
+# entries = [] We do not need that list anymore, we have MongoDB!
 
 @app.route("/", methods=["GET", "POST"])
 def home():
