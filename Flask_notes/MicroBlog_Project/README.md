@@ -1,1 +1,1 @@
-A microblog project, with MongoDB implementation.
+A microblog project, with α MongoDB implementation.
