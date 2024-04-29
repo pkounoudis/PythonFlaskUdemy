@@ -6,7 +6,7 @@ from pymongo import MongoClient
 def create_app():
     
     app = Flask(__name__)
-    client = MongoClient("mongodb+srv://Panos_Kounoudis:iYJmnq5QeTipkM7r@cluster0.z0ghwkx.mongodb.net/")
+    client = MongoClient("")
     app.db = client.microblog
 
     # entries = [] We do not need that list anymore, we have MongoDB!
