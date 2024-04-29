@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import datetime
 from pymongo import MongoClient
 
-# Wrap the functionalitites in a create_app() function, to avoid problems.
+# Wrap the functionalitites in a create_app() function, to avoid problems | Factory Pattern.
 def create_app():
     
     app = Flask(__name__)
