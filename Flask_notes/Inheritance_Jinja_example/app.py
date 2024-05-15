@@ -15,3 +15,5 @@ def todo_item(todo: str):
             completed_text ="[x]" if completed else "[]"
             title = f"{completed_text} - Todos"
             return render_template("todo.html", text = text, completed = completed, title = title)
+    else:
+        return render_template("not_found.html", text = todo, title = "Not found")
