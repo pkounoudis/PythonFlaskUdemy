@@ -3,7 +3,7 @@
 {% block head %}
 {% if completed %}
 <style>
-    p{
+    .incomplete{
         margin: 8px 16px;
         background-color: aquamarine;
         padding:12px 24px;
@@ -14,7 +14,7 @@
 </style>
 {% else %}
 <style>
-    p{
+    .complete{
         margin: 8px 16px;
         background-color: darkred;
         color: white;
@@ -31,8 +31,8 @@
     <h1>{{ text }}</h1>
 
     {% if completed %}
-        <p>You've completed this todo!</p>
+        <p class = "complete">You've completed this todo!</p>
     {% else %}
-        <p>You haven't completed this yet. Why not do it now?</p>
+        <p class = "incomplete">You haven't completed this yet. Why not do it now?</p>
     {% endif %}
 {% endblock %}
