@@ -7,7 +7,7 @@ for i in range (3):
         count += 1
         board[i][j] = count
 
-#print(board)
+print(board)
 
 sign = "X"
 
