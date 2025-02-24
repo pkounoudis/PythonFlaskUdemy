@@ -7,7 +7,7 @@ class SupportBot:
 
   exit_commands = ("quit", "pause", "exit", "goodbye", "bye", "later")
 
-  def __init__(self):
+  def __init__(self): # Intent recognition
     self.matching_phrases = {'how_to_pay_bill': [r'.*how.*pay bills.*', r'.*how.*pay my bill.*'], r'pay_bill': [r'.*want.*pay.*my.*bill.*account.*number.*is (\d+)', r'.*need.*pay.*my.*bill.*account.*number.*is (\d+)']}
 
   def welcome(self):
